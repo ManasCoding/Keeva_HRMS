@@ -4,7 +4,7 @@ import api from '../services/api';
 import { io } from 'socket.io-client';
 import { useAttendance } from '../context/AttendanceContext';
 
-const SOCKET_URL = (import.meta.env.VITE_API_BASE_URL || 'https://oditech-hrms-backend-2.onrender.com/api').replace('/api', '');
+const SOCKET_URL = (import.meta.env.VITE_API_BASE_URL || 'https://keeva-hrms-backend.onrender.com/api').replace('/api', '');
 
 import { getEmployeeAttendanceStatus } from '../utils/attendanceUtils';
 

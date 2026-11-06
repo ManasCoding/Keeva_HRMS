@@ -7,7 +7,7 @@ import SearchHeader from '../components/SearchHeader';
 
 const generateNextEmpCode = (existingEmployees) => {
   if (!existingEmployees || existingEmployees.length === 0) {
-    return 'OG1001';
+    return 'ODKV1001';
   }
   
   const codes = existingEmployees
@@ -15,14 +15,14 @@ const generateNextEmpCode = (existingEmployees) => {
     .filter(code => typeof code === 'string' && code.trim() !== '');
     
   if (codes.length === 0) {
-    return 'OG1001';
+    return 'ODKV1001';
   }
   
   let maxNum = -1;
-  let detectedPrefix = 'OG';
+  let detectedPrefix = 'ODKV';
   
   for (const code of codes) {
-    // Match letters/symbols followed by numbers, e.g., "OG2523" or "OD-001" or "EMP101"
+    // Match letters/symbols followed by numbers, e.g., "ODKV001" or "OD-001" or "EMP101"
     const match = code.match(/^([a-zA-Z\-_]+)?(\d+)$/);
     if (match) {
       const prefix = match[1] || '';

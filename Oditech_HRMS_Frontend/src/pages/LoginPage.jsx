@@ -11,7 +11,7 @@ const LoginPage = ({ isAdmin = false }) => {
   const [error, setError] = useState('');
   const navigate = useNavigate();
 
-  const getPrefix = () => employeeType === 'regular' ? 'OG25' : 'OD-IN-';
+  const getPrefix = () => employeeType === 'regular' ? 'ODKV' : 'OD-IN-';
 
   const handleSubmit = async (e) => {
     e.preventDefault();

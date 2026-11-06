@@ -1,7 +1,7 @@
 import axios from 'axios';
 
-// const API_BASE_URL = 'https://oditech-hrms-backend-2.onrender.com/api';
-const API_BASE_URL = import.meta.env.VITE_API_BASE_URL || 'https://oditech-hrms-backend-2.onrender.com/api';
+// const API_BASE_URL = 'https://keeva-hrms-backend.onrender.com/api';
+const API_BASE_URL = import.meta.env.VITE_API_BASE_URL || 'https://keeva-hrms-backend.onrender.com/api';
 
 
 const api = axios.create({

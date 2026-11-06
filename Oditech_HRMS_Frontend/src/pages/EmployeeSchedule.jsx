@@ -10,7 +10,7 @@ import {
 import api from '../services/api';
 import { io } from 'socket.io-client';
 
-const SOCKET_URL = (import.meta.env.VITE_API_BASE_URL || 'https://oditech-hrms-backend-2.onrender.com/api').replace('/api', '');
+const SOCKET_URL = (import.meta.env.VITE_API_BASE_URL || 'https://keeva-hrms-backend.onrender.com/api').replace('/api', '');
 
 // Auto-expanding textarea component that automatically grows in size as an employee types
 // so the employee can always see what they write in full without text clipping
@@ -1471,7 +1471,7 @@ const EmployeeSchedule = ({ embedded = false, onBack, targetEmployeeId = null, t
     slotKey: sheet.getRange(row, 1).getValue() || "General"
   };
   
-  UrlFetchApp.fetch("https://oditech-hrms-backend-2.onrender.com/api/timesheets/sync-sheet", {
+  UrlFetchApp.fetch("https://keeva-hrms-backend.onrender.com/api/timesheets/sync-sheet", {
     method: "post",
     contentType: "application/json",
     payload: JSON.stringify(payload),

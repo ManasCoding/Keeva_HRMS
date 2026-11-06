@@ -7,7 +7,7 @@ import {
 import { io } from 'socket.io-client';
 import api from '../services/api';
 
-const SOCKET_URL = (import.meta.env.VITE_API_BASE_URL || 'https://oditech-hrms-backend-2.onrender.com/api').replace('/api', '');
+const SOCKET_URL = (import.meta.env.VITE_API_BASE_URL || 'https://keeva-hrms-backend.onrender.com/api').replace('/api', '');
 
 const TIME_SLOTS = [
   '09:30 - 10:30',
