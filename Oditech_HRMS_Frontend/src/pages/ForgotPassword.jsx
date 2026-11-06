@@ -159,8 +159,8 @@ const ForgotPassword = ({ isAdmin = false }) => {
         
         {/* Logo and Brand */}
         <div className="flex flex-col items-center mb-8">
-          <div className="w-20 h-20 bg-black rounded-[20px] flex items-center justify-center shadow-lg mb-4 overflow-hidden">
-            <img src="/logo.jpeg" alt="Oditech" className="w-full h-full object-cover p-1" />
+          <div className="w-20 h-20 bg-white border border-slate-100 rounded-[20px] flex items-center justify-center shadow-lg mb-4 overflow-hidden p-1">
+            <img src="/logo.jpeg" alt="Logo" className="w-full h-full object-contain" />
           </div>
           <p className="text-[11px] font-black text-slate-500 uppercase tracking-[0.15em]">
             Oditech Global Pvt. Ltd.

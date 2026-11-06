@@ -57,7 +57,7 @@ const AdminLayout = ({ children, title, subtitle, hideHeader = false }) => {
       <div className="md:hidden fixed top-0 left-0 right-0 z-50 bg-[#0f172a] text-white p-4 flex items-center justify-between shadow-lg">
         <div className="flex items-center gap-3">
           <div className="w-8 h-8 bg-white rounded-lg flex items-center justify-center overflow-hidden">
-            <img src="/logo.jpeg" alt="Logo" className="w-full h-full object-cover" />
+            <img src="/logo.jpeg" alt="Logo" className="w-full h-full object-contain p-0.5" />
           </div>
           <span className="font-bold tracking-tight">Oditech</span>
         </div>
@@ -73,8 +73,8 @@ const AdminLayout = ({ children, title, subtitle, hideHeader = false }) => {
         md:translate-x-0
       `}>
         <div className="hidden md:flex flex-col items-center gap-4 mb-10 px-2 text-center mt-2">
-          <div className="w-20 h-20 bg-black rounded-[1.25rem] flex items-center justify-center overflow-hidden shadow-lg shadow-black/20">
-            <img src="/logo.jpeg" alt="Logo" className="w-full h-full object-cover p-1" />
+          <div className="w-20 h-20 bg-white rounded-[1.25rem] flex items-center justify-center overflow-hidden shadow-lg p-1">
+            <img src="/logo.jpeg" alt="Logo" className="w-full h-full object-contain" />
           </div>
           <div>
             <h2 className="text-xl font-bold tracking-tight text-white mb-1">Oditech Global</h2>
@@ -148,7 +148,7 @@ const AdminLayout = ({ children, title, subtitle, hideHeader = false }) => {
                   <p className="text-xs text-text-muted">Super User</p>
                 </div>
                 <div className="w-10 h-10 bg-slate-200 rounded-full border-2 border-white shadow-sm overflow-hidden flex items-center justify-center">
-                  <img src="/logo.jpeg" alt="Oditech Logo" className="w-full h-full object-cover p-0.5 bg-white" />
+                  <img src="/logo.jpeg" alt="Oditech Logo" className="w-full h-full object-contain p-0.5 bg-white" />
                 </div>
               </div>
             </div>

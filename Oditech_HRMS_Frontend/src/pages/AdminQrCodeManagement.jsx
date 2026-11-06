@@ -430,7 +430,7 @@ const AdminQrCodeManagement = () => {
                     <img src={smartQrDataUrl} alt="Smart QR Code" className="w-56 h-56 object-contain rounded-xl" />
                     <div className="absolute inset-0 flex items-center justify-center pointer-events-none">
                       <div className="w-9 h-9 bg-white rounded-lg shadow-sm border border-emerald-600 p-0.5 flex items-center justify-center">
-                        <img src="/logo.jpeg" alt="" className="w-full h-full object-cover rounded" />
+                        <img src="/logo.jpeg" alt="" className="w-full h-full object-contain rounded" />
                       </div>
                     </div>
                   </div>
@@ -499,7 +499,7 @@ const AdminQrCodeManagement = () => {
                     <img src={classicQrDataUrl} alt="Classic QR Code" className="w-56 h-56 object-contain rounded-xl" />
                     <div className="absolute inset-0 flex items-center justify-center pointer-events-none">
                       <div className="w-9 h-9 bg-white rounded-lg shadow-sm border border-blue-600 p-0.5 flex items-center justify-center">
-                        <img src="/logo.jpeg" alt="" className="w-full h-full object-cover rounded" />
+                        <img src="/logo.jpeg" alt="" className="w-full h-full object-contain rounded" />
                       </div>
                     </div>
                   </div>
@@ -576,7 +576,7 @@ const AdminQrCodeManagement = () => {
                     <img src={smartQrDataUrl} alt="Smart QR" className="w-72 h-72 object-contain rounded-xl" />
                     <div className="absolute inset-0 flex items-center justify-center pointer-events-none">
                       <div className="w-12 h-12 bg-white rounded-xl shadow-md border-2 border-slate-900 p-1 flex items-center justify-center">
-                        <img src="/logo.jpeg" alt="" className="w-full h-full object-cover rounded" />
+                        <img src="/logo.jpeg" alt="" className="w-full h-full object-contain rounded" />
                       </div>
                     </div>
                   </div>
@@ -653,7 +653,7 @@ const AdminQrCodeManagement = () => {
                     <img src={classicQrDataUrl} alt="Classic QR" className="w-72 h-72 object-contain rounded-xl" />
                     <div className="absolute inset-0 flex items-center justify-center pointer-events-none">
                       <div className="w-12 h-12 bg-white rounded-xl shadow-md border-2 border-blue-600 p-1 flex items-center justify-center">
-                        <img src="/logo.jpeg" alt="" className="w-full h-full object-cover rounded" />
+                        <img src="/logo.jpeg" alt="" className="w-full h-full object-contain rounded" />
                       </div>
                     </div>
                   </div>

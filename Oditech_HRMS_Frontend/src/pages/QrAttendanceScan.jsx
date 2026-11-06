@@ -222,8 +222,8 @@ const QrAttendanceScan = () => {
       {/* Top Header */}
       <header className="relative z-10 max-w-md mx-auto w-full flex items-center justify-between pb-6 border-b border-white/10">
         <div className="flex items-center gap-3">
-          <div className="w-10 h-10 rounded-xl bg-black border border-white/20 p-1 flex items-center justify-center shadow-lg shadow-black/40">
-            <img src="/logo.jpeg" alt="Oditech Logo" className="w-full h-full object-cover rounded-lg" />
+          <div className="w-10 h-10 rounded-xl bg-white border border-white/20 p-1 flex items-center justify-center shadow-lg">
+            <img src="/logo.jpeg" alt="Logo" className="w-full h-full object-contain rounded-lg" />
           </div>
           <div>
             <h1 className="font-black text-sm tracking-tight text-white flex items-center gap-1.5">

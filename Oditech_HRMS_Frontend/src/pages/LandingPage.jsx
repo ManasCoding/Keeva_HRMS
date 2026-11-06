@@ -8,11 +8,11 @@ const LandingPage = () => {
       <div className="w-full max-width-[480px] animate-in fade-in slide-in-from-bottom-5 duration-700">
         <div className="bg-surface rounded-[24px] p-10 md:p-14 shadow-[0_4px_6px_-1px_rgba(0,0,0,0.02),0_20px_25px_-5px_rgba(0,0,0,0.03),0_0_0_1px_rgba(0,0,0,0.02)] text-center max-w-md mx-auto">
           <div className="mb-6 flex justify-center">
-            <div className="w-20 h-20 rounded-[18px] overflow-hidden shadow-[0_8px_16px_rgba(15,23,42,0.12)]">
+            <div className="w-20 h-20 rounded-[18px] overflow-hidden shadow-[0_8px_16px_rgba(15,23,42,0.12)] bg-white p-1">
               <img
                 src="/logo.jpeg"
                 alt="Oditech Global Logo"
-                className="w-full h-full object-cover"
+                className="w-full h-full object-contain"
               />
             </div>
           </div>

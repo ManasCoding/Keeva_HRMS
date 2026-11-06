@@ -40,7 +40,7 @@ const LoginPage = ({ isAdmin = false }) => {
       <div className="w-full max-w-[420px] animate-in fade-in slide-in-from-bottom-5 duration-700">
         <div className="bg-surface rounded-[24px] p-10 md:p-12 shadow-[0_4px_6px_-1px_rgba(0,0,0,0.02),0_20px_25px_-5px_rgba(0,0,0,0.03),0_0_0_1px_rgba(0,0,0,0.02)]">
           <div className="flex justify-center mb-8">
-            <img src="/logo.jpeg" alt="Company Logo" className="w-16 h-16 rounded-[16px] object-cover shadow-[0_8px_16px_rgba(15,23,42,0.12)]" />
+            <img src="/logo.jpeg" alt="Company Logo" className="w-20 h-20 rounded-[16px] object-contain bg-white p-1 shadow-[0_8px_16px_rgba(15,23,42,0.12)]" />
           </div>
           
           <div className="text-center mb-10">

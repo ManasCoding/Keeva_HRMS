@@ -87,8 +87,8 @@ const MaintenanceMode = () => {
       {/* Top Navbar */}
       <header className="bg-white border-b border-slate-100 px-6 py-4 flex items-center justify-between shadow-sm">
         <div className="flex items-center gap-3">
-          <div className="w-10 h-10 bg-slate-900 rounded-xl flex items-center justify-center overflow-hidden">
-            <img src="/logo.jpeg" alt="Logo" className="w-full h-full object-cover" />
+          <div className="w-10 h-10 bg-white border border-slate-100 rounded-xl flex items-center justify-center overflow-hidden p-0.5">
+            <img src="/logo.jpeg" alt="Logo" className="w-full h-full object-contain" />
           </div>
           <div>
             <h1 className="text-base font-extrabold tracking-tight leading-none text-slate-800">OdiTech Global <span className="text-[10px] text-slate-400 font-normal">Pvt. Ltd.</span></h1>
