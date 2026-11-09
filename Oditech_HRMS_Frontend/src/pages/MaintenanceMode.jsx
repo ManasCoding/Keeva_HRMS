@@ -265,7 +265,7 @@ const MaintenanceMode = () => {
             <div className="flex items-start gap-4">
               <img 
                 src="/demo/emp1.png" 
-                alt="Manas Kumar Gumansingh" 
+                alt="Oditech Global Pvt. Ltd." 
                 className="w-14 h-14 rounded-full object-cover border border-slate-200"
                 onError={(e) => {
                   e.target.src = "https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?w=100&h=100&fit=crop";
@@ -273,7 +273,7 @@ const MaintenanceMode = () => {
               />
               <div className="mt-1">
                 <p className="text-[11px] font-medium text-slate-500 mb-0.5">Designed & Developed by</p>
-                <h4 className="text-[15px] font-bold text-slate-800 leading-none">Manas Kumar gumansingh</h4>
+                <h4 className="text-[15px] font-bold text-slate-800 leading-none">Oditech Global Pvt. Ltd.</h4>
                 <p className="text-[11px] text-slate-500 font-medium mt-1.5">Full Stack Developer</p>
               </div>
             </div>
