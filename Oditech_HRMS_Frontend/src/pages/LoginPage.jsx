@@ -18,7 +18,7 @@ const LoginPage = ({ isAdmin = false }) => {
     setError('');
     
     try {
-      const finalLoginId = isAdmin ? loginId : `${getPrefix()}${employeeCode}`;
+      const finalLoginId = isAdmin ? loginId.trim() : `${getPrefix()}${employeeCode.trim()}`;
       const data = await login(finalLoginId, password, isAdmin, isAdmin ? undefined : employeeType);
       if (data.success) {
         localStorage.setItem('user', JSON.stringify(data.user));
@@ -92,7 +92,7 @@ const LoginPage = ({ isAdmin = false }) => {
 
             <div className="space-y-2">
               <label className="block text-text-main text-sm font-semibold" htmlFor="login_id">
-                {isAdmin ? 'Username' : 'Employee Code'}
+                {isAdmin ? 'Email / Username' : 'Employee Code'}
               </label>
               {isAdmin ? (
                 <input
@@ -101,7 +101,7 @@ const LoginPage = ({ isAdmin = false }) => {
                   value={loginId}
                   onChange={(e) => setLoginId(e.target.value)}
                   className="w-full p-3.5 bg-background border border-border rounded-xl text-sm text-text-main transition-all duration-200 focus:outline-none focus:border-slate-400 focus:bg-surface focus:ring-4 focus:ring-slate-900/5"
-                  placeholder="admin_username"
+                  placeholder="e.g. gumansingh.oditechglobal@gmail.com"
                   required
                 />
               ) : (
